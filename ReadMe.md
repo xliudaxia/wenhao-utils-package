@@ -25,9 +25,9 @@ npm install wenhao-utils-package
 ```js
 // 使用ESM引入
 import { testUtils } from "wenhao-utils-package";
-testUtils();
+testUtils(); //控制台打印内容：wenhao-utils-package成功引入！
 
 // 使用commonjs引入
 const { testUtils } = require("wenhao-utils-package");
-testUtils();
+testUtils(); //控制台打印内容：wenhao-utils-package成功引入！
 ```

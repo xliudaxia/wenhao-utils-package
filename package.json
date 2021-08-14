@@ -1,0 +1,28 @@
+{
+  "name": "wenhao-utils-package",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "author": "wenhaoliu",
+  "description": "文君-自定义工具函数库",
+  "keywords": [
+    "wenhao",
+    "utils",
+    "array",
+    "object",
+    "function",
+    "string",
+    "axios",
+    "event-bus",
+    "pub-sub",
+    "promise"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

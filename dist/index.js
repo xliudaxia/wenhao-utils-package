@@ -20,6 +20,16 @@ return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/array/difference.js":
+/*!*********************************!*\
+  !*** ./src/array/difference.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"difference\": () => (/* binding */ difference)\n/* harmony export */ });\n/*\n * @Author: jessLiu\n */\n//两个函数求差集\nfunction difference(arr1, arr2 = []) {\n  if (arr1.length === 0 || arr2.length === 0) {\n    return [];\n  }\n  const result = arr1.filter((items) => !arr2.includes(items));\n  return result;\n}\n\n\n//# sourceURL=webpack://whutils/./src/array/difference.js?");
+
+/***/ }),
+
 /***/ "./src/function/debounce.js":
 /*!**********************************!*\
   !*** ./src/function/debounce.js ***!
@@ -46,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"throttle\": () => (/* reexport safe */ _function_throttle__WEBPACK_IMPORTED_MODULE_0__.throttle),\n/* harmony export */   \"debounce\": () => (/* reexport safe */ _function_debounce__WEBPACK_IMPORTED_MODULE_1__.debounce)\n/* harmony export */ });\n/* harmony import */ var _function_throttle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./function/throttle */ \"./src/function/throttle.js\");\n/* harmony import */ var _function_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./function/debounce */ \"./src/function/debounce.js\");\n/*\n * @Author: jessLiu\n */\n\n\n\n\n//# sourceURL=webpack://whutils/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"debounce\": () => (/* reexport safe */ _function_debounce__WEBPACK_IMPORTED_MODULE_0__.debounce),\n/* harmony export */   \"throttle\": () => (/* reexport safe */ _function_throttle__WEBPACK_IMPORTED_MODULE_1__.throttle),\n/* harmony export */   \"difference\": () => (/* reexport safe */ _array_difference__WEBPACK_IMPORTED_MODULE_2__.difference)\n/* harmony export */ });\n/* harmony import */ var _function_debounce__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./function/debounce */ \"./src/function/debounce.js\");\n/* harmony import */ var _function_throttle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./function/throttle */ \"./src/function/throttle.js\");\n/* harmony import */ var _array_difference__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./array/difference */ \"./src/array/difference.js\");\n/*\n * @Author: jessLiu\n */\n//防抖\n\n//节流\n\n//求差集\n\n\n\n//# sourceURL=webpack://whutils/./src/index.js?");
 
 /***/ })
 

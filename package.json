@@ -1,6 +1,6 @@
 {
   "name": "wenhao-utils-package",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "author": "wenhaoliu",
   "description": "文君-自定义工具函数库",
